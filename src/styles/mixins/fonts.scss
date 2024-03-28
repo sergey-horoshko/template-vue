@@ -1,0 +1,9 @@
+@mixin font($name, $path, $weight, $style: normal) {
+  @font-face {
+    font-display: swap;
+    font-family: $name;
+    font-style: $style;
+    font-weight: $weight;
+    src: url('/fonts/#{$path}.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+}
