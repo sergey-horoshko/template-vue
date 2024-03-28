@@ -2,6 +2,7 @@
 
 ### В проекте используется [PrimeVue](https://primevue.org/), [PrimeIcons](https://primevue.org/icons/)
 
+### Файл pre-commit должен быть LF
 ### Создать файл .env.local и записать данные
 
 ```sh
